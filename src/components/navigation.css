@@ -24,6 +24,3 @@ a, a:visited {
 a:hover {
     color: #dfbae3;
 }
-a:focus, a:active {
-    color: #d100bc;
-}
