@@ -3,10 +3,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <p>Cityscapes</p>
+    <p>About</p>
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage

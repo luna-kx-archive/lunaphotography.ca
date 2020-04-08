@@ -9,14 +9,16 @@ import "./layout.css"
 const Layout = ({ children }) => {
   return (
       <React.Fragment>
-        <Grid fluid>
-          <Row>
-            <Navigation />
-            <Col xs={6} md={3}>
+          <Grid fluid>
+          <div className="space">
+            <Row>
+              <Navigation />
+              <Col xs={6} md={3}>
                 <main>{children}</main>
-            </Col>
-          </Row>
-        </Grid>
+              </Col>
+            </Row>
+            </div>
+          </Grid>
       </React.Fragment>
   )
 }

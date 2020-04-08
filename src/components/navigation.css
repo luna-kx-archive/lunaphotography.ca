@@ -1,19 +1,29 @@
-.Navigation {
-    padding: 10px;
-}
-
 h3 {
+    color: #b197d3;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-transform: lowercase;
     font-weight: bold;
 }
 
 ul,li {
-    list-style:none;
-    margin:0;
-    padding:0;
+    list-style: none;
+    padding: 0;
  }
 
 a {
+    font-size: 15px;
+    font-weight: 600;
     text-decoration: none;
     text-transform: lowercase;
+}
+
+a, a:visited {
+    color: black;
+}
+a:hover {
+    color: #dfbae3;
+}
+a:focus, a:active {
+    color: #d100bc;
 }
